@@ -9,14 +9,14 @@ import java.net.URI;
 public class hdfs {
 
     public static void main(String[] args) throws Exception {
-        URI uri = new URI("hdfs://node0:9000/");
+        URI uri = new URI("hdfs://node1:9000/");
         Configuration conf = new Configuration();
         String user = "zhangsan";
         FileSystem fs = FileSystem.get(uri,conf,user);
 
-        fs.copyFromLocalFile(new Path("D:\\he.txt"), new Path("/user/zhangsan/"));
+        fs.copyFromLocalFile(new Path("D:\\bigdata.txt"), new Path("/user/zhangsan/"));
 
-        boolean exist = fs.exists(new Path("/user/zhangsan/he.txt"));
+        boolean exist = fs.exists(new Path("/user/zhangsan/bigdata.txt"));
         if(exist) {
             System.out.println("success");
         }else {
