@@ -44,7 +44,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>cn.studybigdata.hadoop.hdfs.hdfs</mainClass>
+                            <mainClass>cn.studybigdata.hadoop.mapred.dpartition.DeptMain</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
