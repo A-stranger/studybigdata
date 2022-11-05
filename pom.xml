@@ -9,7 +9,13 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
+        <module>java</module>
+        <module>hadoop</module>
+        <module>hbase</module>
+        <module>flume</module>
+        <module>minicluster</module>
         <module>spark-wordcount-mvn</module>
+        <module>kettle</module>
     </modules>
 
     <properties>

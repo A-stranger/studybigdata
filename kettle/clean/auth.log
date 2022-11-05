@@ -1,0 +1,158 @@
+Apr  7 23:33:49 hadoop-vm pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr  7 23:33:49 hadoop-vm pkexec[13571]: hadoop: Executing command [USER=root] [TTY=unknown] [CWD=/home/hadoop] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Apr  7 23:59:56 hadoop-vm sshd[14019]: Accepted publickey for hadoop from 127.0.0.1 port 57588 ssh2: RSA SHA256:N7WKpF24Eaoar++oqEBcynlxwj6UgIRYtPc8nxMqqQo
+Apr  7 23:59:56 hadoop-vm sshd[14019]: pam_unix(sshd:session): session opened for user hadoop by (uid=0)
+Apr  7 23:59:56 hadoop-vm systemd-logind[674]: New session 4 of user hadoop.
+Apr  8 00:00:01 hadoop-vm sshd[14115]: Received disconnect from 127.0.0.1 port 57588:11: disconnected by user
+Apr  8 00:00:01 hadoop-vm sshd[14115]: Disconnected from user hadoop 127.0.0.1 port 57588
+Apr  8 00:00:01 hadoop-vm sshd[14019]: pam_unix(sshd:session): session closed for user hadoop
+Apr  8 00:00:01 hadoop-vm sshd[14216]: Accepted publickey for hadoop from 127.0.0.1 port 57590 ssh2: RSA SHA256:N7WKpF24Eaoar++oqEBcynlxwj6UgIRYtPc8nxMqqQo
+Apr  8 00:00:01 hadoop-vm sshd[14216]: pam_unix(sshd:session): session opened for user hadoop by (uid=0)
+Apr  8 00:00:01 hadoop-vm systemd-logind[674]: New session 5 of user hadoop.
+Apr  8 00:00:06 hadoop-vm sshd[14282]: Received disconnect from 127.0.0.1 port 57590:11: disconnected by user
+Apr  8 00:00:06 hadoop-vm sshd[14282]: Disconnected from user hadoop 127.0.0.1 port 57590
+Apr  8 00:00:06 hadoop-vm sshd[14216]: pam_unix(sshd:session): session closed for user hadoop
+Apr  8 00:00:09 hadoop-vm sshd[14475]: Accepted publickey for hadoop from 127.0.0.1 port 57594 ssh2: RSA SHA256:N7WKpF24Eaoar++oqEBcynlxwj6UgIRYtPc8nxMqqQo
+Apr  8 00:00:09 hadoop-vm sshd[14475]: pam_unix(sshd:session): session opened for user hadoop by (uid=0)
+Apr  8 00:00:09 hadoop-vm systemd-logind[674]: New session 6 of user hadoop.
+Apr  8 00:00:14 hadoop-vm sshd[14544]: Received disconnect from 127.0.0.1 port 57594:11: disconnected by user
+Apr  8 00:00:14 hadoop-vm sshd[14544]: Disconnected from user hadoop 127.0.0.1 port 57594
+Apr  8 00:00:14 hadoop-vm sshd[14475]: pam_unix(sshd:session): session closed for user hadoop
+Apr  8 00:00:18 hadoop-vm sshd[14797]: Accepted publickey for hadoop from 127.0.0.1 port 57596 ssh2: RSA SHA256:N7WKpF24Eaoar++oqEBcynlxwj6UgIRYtPc8nxMqqQo
+Apr  8 00:00:18 hadoop-vm sshd[14797]: pam_unix(sshd:session): session opened for user hadoop by (uid=0)
+Apr  8 00:00:18 hadoop-vm systemd-logind[674]: New session 7 of user hadoop.
+Apr  8 00:00:19 hadoop-vm sshd[14863]: Received disconnect from 127.0.0.1 port 57596:11: disconnected by user
+Apr  8 00:00:19 hadoop-vm sshd[14863]: Disconnected from user hadoop 127.0.0.1 port 57596
+Apr  8 00:00:19 hadoop-vm sshd[14797]: pam_unix(sshd:session): session closed for user hadoop
+Apr  8 00:17:01 hadoop-vm CRON[17119]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  8 00:17:01 hadoop-vm CRON[17119]: pam_unix(cron:session): session closed for user root
+Apr  8 00:23:41 hadoop-vm polkitd(authority=local): Unregistered Authentication Agent for unix-session:2 (system bus name :1.78, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8) (disconnected from bus)
+Apr  8 00:23:42 hadoop-vm systemd-logind[674]: System is powering down.
+Apr  8 00:23:42 hadoop-vm sshd[821]: Received signal 15; terminating.
+Apr  8 08:42:35 hadoop-vm systemd-logind[659]: New seat seat0.
+Apr  8 08:42:35 hadoop-vm systemd-logind[659]: Watching system buttons on /dev/input/event0 (Power Button)
+Apr  8 08:42:37 hadoop-vm sshd[839]: Server listening on 0.0.0.0 port 22.
+Apr  8 08:42:37 hadoop-vm sshd[839]: Server listening on :: port 22.
+Apr  8 08:42:38 hadoop-vm gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm by (uid=0)
+Apr  8 08:42:38 hadoop-vm systemd: pam_unix(systemd-user:session): session opened for user gdm by (uid=0)
+Apr  8 08:42:38 hadoop-vm systemd-logind[659]: New session c1 of user gdm.
+Apr  8 08:42:47 hadoop-vm systemd-logind[659]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+Apr  8 08:42:47 hadoop-vm sshd[839]: Received SIGHUP; restarting.
+Apr  8 08:42:47 hadoop-vm sshd[839]: Server listening on 0.0.0.0 port 22.
+Apr  8 08:42:47 hadoop-vm sshd[839]: Server listening on :: port 22.
+Apr  8 08:42:53 hadoop-vm sshd[839]: Received SIGHUP; restarting.
+Apr  8 08:42:53 hadoop-vm sshd[839]: Server listening on 0.0.0.0 port 22.
+Apr  8 08:42:53 hadoop-vm sshd[839]: Server listening on :: port 22.
+Apr  8 08:42:56 hadoop-vm polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.29 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+Apr  8 09:12:12 hadoop-vm gdm-password]: pam_unix(gdm-password:session): session opened for user hadoop by (uid=0)
+Apr  8 09:12:12 hadoop-vm systemd: pam_unix(systemd-user:session): session opened for user hadoop by (uid=0)
+Apr  8 09:12:12 hadoop-vm systemd-logind[659]: New session 2 of user hadoop.
+Apr  8 09:12:20 hadoop-vm polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.88 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+Apr  8 09:17:01 hadoop-vm CRON[3173]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr  8 09:17:01 hadoop-vm CRON[3173]: pam_unix(cron:session): session closed for user root
+Apr  8 09:23:01 hadoop-vm sshd[3338]: Accepted publickey for hadoop from 127.0.0.1 port 47222 ssh2: RSA SHA256:N7WKpF24Eaoar++oqEBcynlxwj6UgIRYtPc8nxMqqQo
+Apr  8 09:23:01 hadoop-vm sshd[3338]: pam_unix(sshd:session): session opened for user hadoop by (uid=0)
+Apr  8 09:23:01 hadoop-vm systemd-logind[659]: New session 5 of user hadoop.
+Apr  8 09:23:06 hadoop-vm sshd[3433]: Received disconnect from 127.0.0.1 port 47222:11: disconnected by user
+Apr  8 09:23:06 hadoop-vm sshd[3433]: Disconnected from user hadoop 127.0.0.1 port 47222
+Apr  8 09:23:06 hadoop-vm sshd[3338]: pam_unix(sshd:session): session closed for user hadoop
+Apr  8 09:23:06 hadoop-vm sshd[3529]: Accepted publickey for hadoop from 127.0.0.1 port 47224 ssh2: RSA SHA256:N7WKpF24Eaoar++oqEBcynlxwj6UgIRYtPc8nxMqqQo
+Apr  8 09:23:06 hadoop-vm sshd[3529]: pam_unix(sshd:session): session opened for user hadoop by (uid=0)
+Apr  8 09:23:06 hadoop-vm systemd-logind[659]: New session 6 of user hadoop.
+Apr  8 09:23:11 hadoop-vm sshd[3594]: Received disconnect from 127.0.0.1 port 47224:11: disconnected by user
+Apr  8 09:23:11 hadoop-vm sshd[3594]: Disconnected from user hadoop 127.0.0.1 port 47224
+Apr  8 09:23:11 hadoop-vm sshd[3529]: pam_unix(sshd:session): session closed for user hadoop
+Apr  8 09:23:17 hadoop-vm sshd[3770]: Accepted publickey for hadoop from 127.0.0.1 port 47226 ssh2: RSA SHA256:N7WKpF24Eaoar++oqEBcynlxwj6UgIRYtPc8nxMqqQo
+Apr  8 09:23:17 hadoop-vm sshd[3770]: pam_unix(sshd:session): session opened for user hadoop by (uid=0)
+Apr  8 09:23:17 hadoop-vm systemd-logind[659]: New session 7 of user hadoop.
+Apr  8 09:23:22 hadoop-vm sshd[3838]: Received disconnect from 127.0.0.1 port 47226:11: disconnected by user
+Apr  8 09:23:22 hadoop-vm sshd[3838]: Disconnected from user hadoop 127.0.0.1 port 47226
+Apr  8 09:23:22 hadoop-vm sshd[3770]: pam_unix(sshd:session): session closed for user hadoop
+Apr  8 09:23:31 hadoop-vm sshd[4119]: Accepted publickey for hadoop from 127.0.0.1 port 47230 ssh2: RSA SHA256:N7WKpF24Eaoar++oqEBcynlxwj6UgIRYtPc8nxMqqQo
+Apr  8 09:23:31 hadoop-vm sshd[4119]: pam_unix(sshd:session): session opened for user hadoop by (uid=0)
+Apr  8 09:23:31 hadoop-vm systemd-logind[659]: New session 8 of user hadoop.
+Apr  8 09:23:33 hadoop-vm sshd[4184]: Received disconnect from 127.0.0.1 port 47230:11: disconnected by user
+Apr  8 09:23:33 hadoop-vm sshd[4184]: Disconnected from user hadoop 127.0.0.1 port 47230
+Apr  8 09:23:33 hadoop-vm sshd[4119]: pam_unix(sshd:session): session closed for user hadoop
+Apr  8 10:07:29 hadoop-vm polkitd(authority=local): Unregistered Authentication Agent for unix-session:2 (system bus name :1.88, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8) (disconnected from bus)
+Apr  8 10:07:29 hadoop-vm systemd-logind[659]: System is powering down.
+Apr  9 23:50:20 hadoop-vm systemd-logind[720]: New seat seat0.
+Apr  9 23:50:20 hadoop-vm systemd-logind[720]: Watching system buttons on /dev/input/event0 (Power Button)
+Apr  9 23:50:21 hadoop-vm sshd[814]: Server listening on 0.0.0.0 port 22.
+Apr  9 23:50:21 hadoop-vm sshd[814]: Server listening on :: port 22.
+Apr  9 23:50:22 hadoop-vm gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm by (uid=0)
+Apr  9 23:50:22 hadoop-vm systemd-logind[720]: New session c1 of user gdm.
+Apr  9 23:50:22 hadoop-vm systemd: pam_unix(systemd-user:session): session opened for user gdm by (uid=0)
+Apr  9 23:50:24 hadoop-vm systemd-logind[720]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+Apr  9 23:50:28 hadoop-vm sshd[814]: Received SIGHUP; restarting.
+Apr  9 23:50:28 hadoop-vm sshd[814]: Server listening on 0.0.0.0 port 22.
+Apr  9 23:50:28 hadoop-vm sshd[814]: Server listening on :: port 22.
+Apr  9 23:50:32 hadoop-vm polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.30 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+Apr  9 23:50:33 hadoop-vm sshd[814]: Received SIGHUP; restarting.
+Apr  9 23:50:33 hadoop-vm sshd[814]: Server listening on 0.0.0.0 port 22.
+Apr  9 23:50:33 hadoop-vm sshd[814]: Server listening on :: port 22.
+Apr  9 23:51:10 hadoop-vm gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=hadoop
+Apr  9 23:51:16 hadoop-vm gdm-password]: pam_unix(gdm-password:session): session opened for user hadoop by (uid=0)
+Apr  9 23:51:16 hadoop-vm systemd: pam_unix(systemd-user:session): session opened for user hadoop by (uid=0)
+Apr  9 23:51:16 hadoop-vm systemd-logind[720]: New session 2 of user hadoop.
+Apr  9 23:51:25 hadoop-vm polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.80 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+Apr  9 23:53:14 hadoop-vm sshd[2346]: Invalid user zzz from 192.168.127.1 port 52098
+Apr  9 23:53:18 hadoop-vm sshd[2346]: pam_unix(sshd:auth): check pass; user unknown
+Apr  9 23:53:18 hadoop-vm sshd[2346]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.127.1
+Apr  9 23:53:20 hadoop-vm sshd[2346]: Failed password for invalid user zzz from 192.168.127.1 port 52098 ssh2
+Apr  9 23:53:27 hadoop-vm sshd[2346]: pam_unix(sshd:auth): check pass; user unknown
+Apr  9 23:53:30 hadoop-vm sshd[2346]: Failed password for invalid user zzz from 192.168.127.1 port 52098 ssh2
+Apr  9 23:56:58 hadoop-vm sudo:   hadoop : TTY=pts/0 ; PWD=/home/hadoop ; USER=root ; COMMAND=/sbin/pam_tally2 -u hadoop -r
+Apr  9 23:56:58 hadoop-vm sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  9 23:56:58 hadoop-vm sudo: pam_unix(sudo:session): session closed for user root
+Apr  9 23:57:20 hadoop-vm sshd[2720]: Invalid user zzz from 192.168.127.1 port 52307
+Apr  9 23:57:23 hadoop-vm sshd[2720]: pam_unix(sshd:auth): check pass; user unknown
+Apr  9 23:57:23 hadoop-vm sshd[2720]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.127.1
+Apr  9 23:57:25 hadoop-vm sshd[2720]: Failed password for invalid user zzz from 192.168.127.1 port 52307 ssh2
+Apr  9 23:57:29 hadoop-vm sshd[2720]: pam_unix(sshd:auth): check pass; user unknown
+Apr  9 23:57:31 hadoop-vm sshd[2720]: Failed password for invalid user zzz from 192.168.127.1 port 52307 ssh2
+Apr  9 23:57:35 hadoop-vm sshd[2720]: Failed password for invalid user zzz from 192.168.127.1 port 52307 ssh2
+Apr  9 23:57:35 hadoop-vm sshd[2720]: Connection reset by invalid user zzz 192.168.127.1 port 52307 [preauth]
+Apr  9 23:57:35 hadoop-vm sshd[2720]: PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.127.1
+Apr  9 23:58:10 hadoop-vm sshd[2725]: Accepted password for hadoop from 192.168.127.1 port 52325 ssh2
+Apr  9 23:58:10 hadoop-vm sshd[2725]: pam_unix(sshd:session): session opened for user hadoop by (uid=0)
+Apr  9 23:58:10 hadoop-vm systemd-logind[720]: New session 4 of user hadoop.
+Apr  9 23:58:20 hadoop-vm sshd[2813]: Received disconnect from 192.168.127.1 port 52325:11: disconnected by user
+Apr  9 23:58:20 hadoop-vm sshd[2813]: Disconnected from user hadoop 192.168.127.1 port 52325
+Apr  9 23:58:20 hadoop-vm sshd[2725]: pam_unix(sshd:session): session closed for user hadoop
+Apr  9 23:58:20 hadoop-vm systemd-logind[720]: Removed session 4.
+Apr 10 00:17:01 hadoop-vm CRON[3173]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 10 00:17:01 hadoop-vm CRON[3173]: pam_unix(cron:session): session closed for user root
+Apr 10 01:17:01 hadoop-vm CRON[3402]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 10 01:17:01 hadoop-vm CRON[3402]: pam_unix(cron:session): session closed for user root
+Apr 10 02:17:01 hadoop-vm CRON[3603]: pam_unix(cron:session): session opened for user root by (uid=0)
+Apr 10 02:17:01 hadoop-vm CRON[3603]: pam_unix(cron:session): session closed for user root
+Apr 10 08:56:07 hadoop-vm systemd-logind[677]: New seat seat0.
+Apr 10 08:56:07 hadoop-vm systemd-logind[677]: Watching system buttons on /dev/input/event0 (Power Button)
+Apr 10 08:56:08 hadoop-vm sshd[848]: Server listening on 0.0.0.0 port 22.
+Apr 10 08:56:08 hadoop-vm sshd[848]: Server listening on :: port 22.
+Apr 10 08:56:09 hadoop-vm gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm by (uid=0)
+Apr 10 08:56:09 hadoop-vm systemd-logind[677]: New session c1 of user gdm.
+Apr 10 08:56:09 hadoop-vm systemd: pam_unix(systemd-user:session): session opened for user gdm by (uid=0)
+Apr 10 08:56:13 hadoop-vm systemd-logind[677]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+Apr 10 08:56:16 hadoop-vm sshd[848]: Received SIGHUP; restarting.
+Apr 10 08:56:16 hadoop-vm sshd[848]: Server listening on 0.0.0.0 port 22.
+Apr 10 08:56:16 hadoop-vm sshd[848]: Server listening on :: port 22.
+Apr 10 08:56:21 hadoop-vm polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.30 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+Apr 10 08:56:21 hadoop-vm sshd[848]: Received SIGHUP; restarting.
+Apr 10 08:56:21 hadoop-vm sshd[848]: Server listening on 0.0.0.0 port 22.
+Apr 10 08:56:21 hadoop-vm sshd[848]: Server listening on :: port 22.
+Apr 10 08:56:31 hadoop-vm gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=hadoop
+Apr 10 08:56:38 hadoop-vm gdm-password]: pam_unix(gdm-password:session): session opened for user hadoop by (uid=0)
+Apr 10 08:56:38 hadoop-vm systemd: pam_unix(systemd-user:session): session opened for user hadoop by (uid=0)
+Apr 10 08:56:38 hadoop-vm systemd-logind[677]: New session 2 of user hadoop.
+Apr 10 08:56:47 hadoop-vm polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.79 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale zh_CN.UTF-8)
+Apr 10 09:02:34 hadoop-vm sshd[2308]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.127.1  user=hadoop
+Apr 10 09:02:36 hadoop-vm sshd[2308]: Failed password for hadoop from 192.168.127.1 port 50246 ssh2
+Apr 10 09:02:40 hadoop-vm sshd[2308]: Accepted password for hadoop from 192.168.127.1 port 50246 ssh2
+Apr 10 09:02:40 hadoop-vm sshd[2308]: pam_unix(sshd:session): session opened for user hadoop by (uid=0)
+Apr 10 09:02:40 hadoop-vm systemd-logind[677]: New session 4 of user hadoop.
+Apr 10 09:02:53 hadoop-vm sshd[2397]: Received disconnect from 192.168.127.1 port 50246:11: disconnected by user
+Apr 10 09:02:53 hadoop-vm sshd[2397]: Disconnected from user hadoop 192.168.127.1 port 50246
+Apr 10 09:02:53 hadoop-vm sshd[2308]: pam_unix(sshd:session): session closed for user hadoop
+Apr 10 09:02:53 hadoop-vm systemd-logind[677]: Removed session 4.
