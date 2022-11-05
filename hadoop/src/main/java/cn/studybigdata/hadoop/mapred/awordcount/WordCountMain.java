@@ -11,6 +11,13 @@ import org.apache.hadoop.io.Text;
 import java.io.IOException;
 
 public class WordCountMain {
+    /**
+     *
+     * @param args: file:///D:\IdeaProjects\studybigdata\data\input\a.txt file:///D:\IdeaProjects\studybigdata\out
+     * @throws IOException
+     * @throws ClassNotFoundException
+     * @throws InterruptedException
+     */
     public static void main(String[] args) throws IOException, ClassNotFoundException, InterruptedException {
 
         Configuration configuration = new Configuration();
