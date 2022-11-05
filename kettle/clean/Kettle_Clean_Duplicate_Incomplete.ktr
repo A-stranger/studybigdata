@@ -436,8 +436,8 @@
   <notepads>
     <notepad>
       <note>根据Name列，查询参照流中与主数据流相似度最高的记录</note>
-      <xloc>368</xloc>
-      <yloc>128</yloc>
+      <xloc>240</xloc>
+      <yloc>144</yloc>
       <width>398</width>
       <heigth>30</heigth>
       <fontname>Microsoft YaHei UI</fontname>
@@ -456,11 +456,11 @@
       <drawshadow>Y</drawshadow>
     </notepad>
     <notepad>
-      <note>约定 E-Mail一致的记录 指向了同一实体
-查询E-Mail一致的记录</note>
-      <xloc>816</xloc>
+      <note>约定 E-Mail一致的记录指向了同一实体；
+查找重复记录</note>
+      <xloc>704</xloc>
       <yloc>128</yloc>
-      <width>273</width>
+      <width>284</width>
       <heigth>50</heigth>
       <fontname>Microsoft YaHei UI</fontname>
       <fontsize>9</fontsize>
@@ -480,10 +480,10 @@
     <notepad>
       <note>1 - 4
 4 - 1
-去除重复记录，只保留一条。</note>
-      <xloc>1296</xloc>
-      <yloc>112</yloc>
-      <width>205</width>
+只保留一条。</note>
+      <xloc>1376</xloc>
+      <yloc>176</yloc>
+      <width>100</width>
       <heigth>70</heigth>
       <fontname>Microsoft YaHei UI</fontname>
       <fontsize>9</fontsize>
@@ -555,10 +555,31 @@ FROM
       <drawshadow>Y</drawshadow>
     </notepad>
     <notepad>
-      <note>E-Mail无重复的记录，不同实体输出。</note>
-      <xloc>928</xloc>
-      <yloc>368</yloc>
-      <width>265</width>
+      <note>无重复</note>
+      <xloc>1072</xloc>
+      <yloc>352</yloc>
+      <width>55</width>
+      <heigth>30</heigth>
+      <fontname>Microsoft YaHei UI</fontname>
+      <fontsize>9</fontsize>
+      <fontbold>N</fontbold>
+      <fontitalic>N</fontitalic>
+      <fontcolorred>0</fontcolorred>
+      <fontcolorgreen>0</fontcolorgreen>
+      <fontcolorblue>0</fontcolorblue>
+      <backgroundcolorred>255</backgroundcolorred>
+      <backgroundcolorgreen>205</backgroundcolorgreen>
+      <backgroundcolorblue>112</backgroundcolorblue>
+      <bordercolorred>100</bordercolorred>
+      <bordercolorgreen>100</bordercolorgreen>
+      <bordercolorblue>100</bordercolorblue>
+      <drawshadow>Y</drawshadow>
+    </notepad>
+    <notepad>
+      <note>重复</note>
+      <xloc>1152</xloc>
+      <yloc>192</yloc>
+      <width>40</width>
       <heigth>30</heigth>
       <fontname>Microsoft YaHei UI</fontname>
       <fontsize>9</fontsize>
