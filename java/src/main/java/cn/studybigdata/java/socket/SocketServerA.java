@@ -5,8 +5,6 @@ import java.io.OutputStream;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.nio.charset.StandardCharsets;
-import java.text.SimpleDateFormat;
-import java.util.Date;
 
 public class SocketServerA {
     public static void main(String[] args) throws IOException, InterruptedException {
@@ -21,9 +19,9 @@ public class SocketServerA {
         while (true) {
             String [] characters = {"a","b","c"};
             for (String character : characters) {
-                String outkv = character+"\n";
-                outputStream.write(outkv.getBytes(StandardCharsets.UTF_8));
-                System.out.println("输出字符： "+ outkv);
+                String value = character+"\n";
+                outputStream.write(value.getBytes(StandardCharsets.UTF_8));
+                System.out.println("输出字符： "+ value);
                 Thread.sleep(1000);
             }
         }

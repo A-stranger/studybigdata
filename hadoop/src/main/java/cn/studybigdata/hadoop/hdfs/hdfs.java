@@ -9,7 +9,7 @@ import java.net.URI;
 public class hdfs {
 
     public static void main(String[] args) throws Exception {
-        URI uri = new URI("hdfs://node1:9000/");
+        URI uri = new URI("hdfs://node0:9000/");
         Configuration conf = new Configuration();
         String user = "zhangsan";
         FileSystem fs = FileSystem.get(uri,conf,user);

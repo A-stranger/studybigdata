@@ -14,8 +14,8 @@ public class SocketClient extends Socket {
         InputStream inputStream = socket.getInputStream(); //字节流
         byte[] bytes = new byte[8];
         int read = inputStream.read(bytes);
+        System.out.println(bytes);
         String in = new String(bytes, StandardCharsets.UTF_8);
         System.out.println(in);
-
     }
 }

@@ -9,7 +9,7 @@ import java.nio.charset.StandardCharsets;
 public class StreamingHelloWorld {
     public static void main(String[] args) throws IOException, InterruptedException {
 
-        ServerSocket sc = new ServerSocket(9997);
+        ServerSocket sc = new ServerSocket(9999);
 
         System.out.println("等待链接... ...");
         Socket accept = sc.accept();
@@ -19,15 +19,14 @@ public class StreamingHelloWorld {
 
         while (true) {
 
-            String [] lines = new String[]{"a", "b", "c", "d", "e", "f"};
+            String [] items = new String[]{"a", "b", "c", "d", "e", "f"};
 
-            for (String line : lines) {
+            for (String item : items) {
 
-                // 输出数据最后一定要有换行符！！！，不然spark收不到数据。
-                line = line + "\n";
-                System.out.println("输出字符： "+ line);
+                item = item + "\n";                // 输出数据最后一定要有换行符！！！，不然spark收不到数据。
+                System.out.println("输出字符： "+ item);
 
-                outputStream.write(line.getBytes(StandardCharsets.UTF_8));
+                outputStream.write(item.getBytes(StandardCharsets.UTF_8));
                 Thread.sleep(500);
             }
         }

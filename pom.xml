@@ -16,6 +16,8 @@
         <module>minicluster</module>
         <module>spark-wordcount-mvn</module>
         <module>kettle</module>
+        <module>spark</module>
+        <module>javaee</module>
     </modules>
 
     <properties>
