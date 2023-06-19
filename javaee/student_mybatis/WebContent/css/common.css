@@ -1,0 +1,120 @@
+@CHARSET "UTF-8";
+
+*{
+  margin:0;
+  padding:0;
+}
+
+a{
+  text-decoration:none;
+}
+
+body {
+  font-family:'微软雅黑';
+  font-size:16px;
+  color:#000;
+}
+
+.main{
+  width:1000px;
+  height:100%;
+  margin:0 auto;
+  border: 1px solid rgba(0,0,0,0.2);
+  border-radius: 5px;
+  background: rgba(57,136,239,0.55);
+  box-shadow: 0 0 13px 3px rgba(0,0,0,0.5);
+}
+
+h1{
+  text-align:center;
+  color:#fff;
+  font-size: 70px;
+}
+
+h2{
+  width:100%;
+  height:40px;
+  margin:10px auto;
+  text-align:center;
+  font-size:30px;
+  color:#fff;
+}
+
+.header{
+  height:200px;
+  color:#000;
+  line-height:200px;
+  background: url(../images/header.png) no-repeat center center;
+  background-size:cover;
+  overflow:hidden;
+}
+
+.content {
+  padding:0px 50px;
+}
+
+.information {
+  width:100px;
+  height:30px;
+  padding:0px 20px;
+}
+
+.contact_form {
+  width:100%;
+  border:1px solid rgba(255,255,255,0.4);
+  border-radius:4px;
+  display:block;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size:18px;
+  padding:10px;
+  background:rgba(255,255,255,0.4) no-repeat 16px 16px;
+}
+
+.contact_form ul {
+  width:750px;
+  list-style:none;
+  margin:0px;
+  padding:0px;
+}
+
+.contact_form li {
+  padding:12px;
+  border-bottom:1px solid #eee;
+  position:relative;
+}
+
+.contact_form span {
+  width:150px;
+  margin-top:3px;
+  display:inline-block;
+  padding:3px;
+}
+
+.usually input, .usually select {
+  height:30px;
+  width:220px;
+  padding:5px 8px;
+}
+
+.submit {
+  background-color:#47b9ea;
+  border:1px solid #46d5e0;
+  color:white;
+  font-weight:bold;
+  padding:6px 20px;
+  text-align:center;
+}
+
+.submit:hover {
+  opacity:0.85;
+  cursor:pointer;
+}
+
+.footer{
+  width:100%;
+  text-align:center;
+}
+
+.footer p{
+  margin:10px auto;
+}

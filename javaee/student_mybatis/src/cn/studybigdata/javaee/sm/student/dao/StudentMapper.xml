@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+ <mapper namespace="cn.studybigdata.javaee.sm.student.dao.StudentMapper">
+ 	<resultMap type="student" id="studentMap">
+        <id column="id" property="id" />
+        <result column="name" property="name" />
+        <result column="age" property="age" />
+        <result column="sex" property="sex" />
+        <result column="account" property="account"/>
+        <result column="password" property="password" />
+        <association column="type_id" property="type" 
+           select="cn.studybigdata.javaee.sm.student.dao.TypeMapper.getById"/>
+     </resultMap>
+ 
+     <select id="query"  resultMap="studentMap">
+         select id, name,age, sex, account, password, type_id from t_student
+     </select>
+     
+     
+     <select id="search" parameterType="student" resultMap="studentMap">
+         select id, name, age, sex, account, password, type_id from t_student 
+         <where>
+             <if test="id!=null">
+                and id=#{id}
+             </if>
+         
+             <if test="name!=null and name!=''">
+                and name like concat('%', #{name}, '%')
+             </if>
+             
+             <if test="age!=null">
+                 and age=#{age}
+             </if>
+             
+             <if test="account!=null and account!=''">
+                 and account=#{account}
+             </if>
+             
+             <if test="password!=null and password!=''">
+                 and password=#{password}
+             </if>
+         </where>
+     </select>
+     
+     <delete id="deleteStudent" parameterType="int">
+         delete from t_student where id=#{id}
+     </delete>
+     
+     <update id="updataStudent" parameterType="student">
+         update t_student
+         <set>
+            <if test="name!=null and name!=''">
+                name = #{name},
+            </if>
+            
+            <if test="age!=null and age!=''">
+                age= #{age},
+            </if>
+            
+            <if test="sex!=null and sex!=''">
+                sex= #{sex},
+            </if>
+            
+            <if test="account!=null and account!=''">
+                account= #{account},
+            </if>
+            
+            <if test="password!=null and password!=''">
+                password= #{password},
+            </if>
+            
+            <if test="type!=null and type.id!=null">
+                type_id= #{type.id}
+            </if>
+         </set>
+         where id = #{id}
+     </update>
+     
+     <insert id="addStudent" parameterType="student">
+         insert into t_student values 
+         (null, #{name}, #{age}, #{sex}, #{account}, #{password}, #{type.id})
+     </insert>
+     
+     <select id="isExistent" parameterType="student" resultType="int">
+         select count(*) from t_student
+         where account =#{account} and password = #{password}
+     </select>
+ </mapper> 

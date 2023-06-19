@@ -1,0 +1,52 @@
+@CHARSET "UTF-8";
+
+.formclass {
+  width:100%;
+  height:40px;
+  margin-top:10px;
+  border:1px solid rgba(255,255,255,0.4);
+  border-radius:4px;
+  display:block;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size:18px;
+  padding:10px;
+  background:rgba(255,255,255,0.4) no-repeat 16px 16px;
+}
+
+.formclass .btn{
+  width:65px;
+  height: 33px;
+  background-color:#47b9ea;
+  border:1px solid #46d5e0;
+  color:white;
+  font-weight:bold;
+  padding:6px 20px;
+  text-align:center;
+}
+
+form{
+  width:100%;
+}
+
+form + a{
+  display:block;
+  width:100px;
+  height:30px;
+  border:1px solid #fff;
+  border-radius:5px;
+  font-size:20px;
+  color:black;
+  text-align:center;
+  line-height:30px;
+  margin-top:20px;
+  margin-bottom:5px;
+  background-color:rgba(57,136,239,0.20);
+}
+
+table{
+  width:100%;
+
+}
+table td{
+  text-align:center;
+}
